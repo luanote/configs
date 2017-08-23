@@ -1,0 +1,5 @@
+#pwd : ~/.ssh/config
+
+Host *  
+ControlMaster auto  
+ControlPath   ~/.ssh/socket/ssh-%r@%h 
